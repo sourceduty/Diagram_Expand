@@ -9,6 +9,58 @@
 Through a step-by-step, multiple-choice process, Diagram Expand interacts with users to understand their specific needs and objectives. Users can upload plain text diagrams, and Diagram Expand then provides tailored advice on how to elevate the abstraction level of these diagrams. By transforming detailed components into broader categories and highlighting essential interactions, this tool streamlines the visualization of complex architectures, fostering better communication and understanding among stakeholders.
 
 #
+### Example Usage
+
+Before Expansion
+```
+CANADA'S GOVERNMENTS
+|
+|-- Federal Government
+|   |-- Prime Minister
+|   |-- Cabinet
+|   |-- Parliament
+|       |-- House of Commons
+|       |-- Senate
+|
+|-- Provincial Governments
+|   |-- Premier
+|   |-- Provincial Legislature
+|       |-- Members of Provincial Parliament (Ontario)
+|       |-- Members of the Legislative Assembly (other provinces)
+|           |-- British Columbia
+|           |-- Alberta
+|           |-- Saskatchewan
+|           |-- Manitoba
+|           |-- Ontario
+|           |-- Quebec
+|           |-- New Brunswick
+|           |-- Nova Scotia
+|           |-- Prince Edward Island
+|           |-- Newfoundland and Labrador
+|
+|-- Territorial Governments
+|   |-- Premier
+|   |-- Territorial Legislature
+|       |-- Members of the Legislative Assembly (Yukon)
+|       |-- Members of the Legislative Assembly (Northwest Territories)
+|       |-- Members of the Legislative Assembly (Nunavut)
+```
+
+After Expansion
+
+```
+CANADA'S GOVERNMENTS
+|
+|-- Federal Government
+|   |-- Executive Branch
+|   |-- Legislative Branch
+|
+|-- Provincial/Territorial Governments
+|   |-- Executive Branch
+|   |-- Legislative Branch
+```
+
+#
 ### Related Links
 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
